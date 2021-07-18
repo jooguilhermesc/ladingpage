@@ -1,6 +1,7 @@
 import NavBar from "../components/NavBar";
 import Banner from "../components/Hero";
-import '../styles/index.css';
+import Footer from "../components/Footer";
+import "../styles/index.css";
 import ContactUs from "../components/ContactUs";
 
 export default function Home() {
@@ -15,8 +16,8 @@ export default function Home() {
         <Banner />
       </main>
 
-      <footer className="block py-5 text-center text-gray-600 w-full  md:flex-column">
-        @Copyright João Guilherme - 2021
+      <footer>
+        <Footer />
       </footer>
     </div>
   );

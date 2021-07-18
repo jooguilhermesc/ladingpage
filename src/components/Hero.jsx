@@ -8,8 +8,8 @@ const Banner = () => {
         <div className="w-full md:mx-12 md:order-2">
           <img
             src={banner}
-            alt=""
-            className="absolute inset-0 w-full h-full object-cover rounded-lg"
+            alt="banner"
+            className="w-full h-full mb-5 object-cover rounded-lg"
           />
           <h1 className="text-2xl font-medium tracking-wide text-blue-600 dark:text-white md:text-4xl">
             As melhores ofertas estão aqui!
